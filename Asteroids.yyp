@@ -9,6 +9,8 @@
     {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},"order":1,},
     {"id":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},"order":3,},
     {"id":{"name":"snd_zap","path":"sounds/snd_zap/snd_zap.yy",},"order":2,},
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":5,},
+    {"id":{"name":"spawn_off_camera","path":"scripts/spawn_off_camera/spawn_off_camera.yy",},"order":0,},
     {"id":{"name":"snd_die","path":"sounds/snd_die/snd_die.yy",},"order":4,},
     {"id":{"name":"spr_asteroid_large","path":"sprites/spr_asteroid_large/spr_asteroid_large.yy",},"order":3,},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":2,},
@@ -21,6 +23,7 @@
     {"id":{"name":"msc_song","path":"sounds/msc_song/msc_song.yy",},"order":3,},
     {"id":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},"order":2,},
     {"id":{"name":"snd_win","path":"sounds/snd_win/snd_win.yy",},"order":1,},
+    {"id":{"name":"position_camera","path":"scripts/position_camera/position_camera.yy",},"order":1,},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},"order":0,},
   ],
   "Options": [
