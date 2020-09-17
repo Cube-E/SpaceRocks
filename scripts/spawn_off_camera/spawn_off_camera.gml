@@ -24,7 +24,7 @@ function spawn_off_camera(_object, _number){
 			yy = irandom_range(0,room_height);
 		}
 	
-		instance_create_layer(x,y,"Instances", _object);
+		instance_create_layer(xx,yy,"Instances", _object);
 		
 		xx = irandom_range(0,room_width);
 		yy = irandom_range(0,room_height);

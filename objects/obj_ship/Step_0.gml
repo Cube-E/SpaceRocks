@@ -19,6 +19,19 @@ if(keyboard_check(ord("w")) || keyboard_check(ord("W")))
 	}
 	direction = image_angle;
 	
+	//Particel FX
+	exhaustCounter++;
+	
+	if(exhaustCounter >=4){
+		var len = sprite_height*0.4;
+		var _xx = x - lengthdir_x(len,image_angle);
+		var _yy = y-  lengthdir_y(len,image_angle);
+		with(obj_particles){
+			part_particles_create(partSys, _xx,_yy, partTypeExhaust, 1);	
+		}
+		exhaustCounter = 0;
+	}
+	
 }
 
 if(keyboard_check(ord("s")) || keyboard_check(ord("S"))) 
@@ -29,12 +42,9 @@ if(keyboard_check(ord("s")) || keyboard_check(ord("S")))
 	}
 }
 
-if(keyboard_check_pressed(vk_space)) 
+if(keyboard_check_pressed(vk_enter)) 
 {
-	var uid = instance_create_layer(x,y,"Instances",obj_bullet);
-	uid.direction = image_angle;
-	audio_play_sound(snd_zap,1,false);
-	
+	create_bullet(image_angle, bullet_speed, faction, guns);
 }
 
 

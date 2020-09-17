@@ -16,7 +16,7 @@ switch(room)
 		
 		draw_text (
 			room_width/2, 200,
-            "Score 1,000 points to win!\nW: move\nA/D: change directions\nSPACE: shoot\n\n>> PRESS ENTER TO START <<"
+            "Score 1,000 points to win!\nW: move\nA/D: left/right\nENTER: shoot\n\n>> PRESS SPACE TO START <<"
 		);
 		break;
 		
@@ -38,7 +38,7 @@ switch(room)
 		
 		draw_text (
 			room_width/2, 200,
-            "PRESS ENTER TO RESTART"
+            "PRESS SPACE TO RESTART"
 		);
 		break;
 	
@@ -59,7 +59,7 @@ switch(room)
 		
 		draw_text (
 			room_width/2, 300,
-            "PRESS ENTER TO RESTART"
+            "PRESS SPACE TO RESTART"
 		);
 		break;
 		break;

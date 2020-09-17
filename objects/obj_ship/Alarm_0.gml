@@ -1,4 +1,3 @@
-/// @description Insert description here
+/// @description Reset Guns
 // You can write your code in this editor
-
-invincible = 0;
+guns = -1;
